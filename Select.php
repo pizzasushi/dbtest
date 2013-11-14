@@ -3,6 +3,13 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>DB test page</title>
+  <style>
+    .data{
+
+    }
+    .data:nth-child(odd){background-color: #aaa;}
+    .data:nth-child(even){background-color: #ccc;}
+  </style>
 </head>
 <body>
   
@@ -20,7 +27,7 @@
   	
   ?>
 
-  <table width="200" border="1">
+  <table width="200" border="0">
     <tr>
       <td>Name</td>
       <td>Father name</td>
@@ -28,7 +35,7 @@
     </tr>
     <?php //... show data
      while( $show	=	mysql_fetch_assoc($rs)){?>
-    <tr>
+    <tr class="data">
       <td><?php echo $show['name'];?></td>
       <td><?php echo $show['fname'];?></td>
       <td><?php echo $show['address	'];?></td>
