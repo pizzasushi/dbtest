@@ -1,4 +1,5 @@
 dbtest
 ======
 
-my test2
+project1 - simple database CURD project
+<hr>
