@@ -1,8 +1,11 @@
 <?php
 //..........database connection ,
 		
-		$conn=mysql_connect("localhost","root","");
-		
+		// $conn=mysql_connect("localhost","root1","root1");
+		$conn = mysql_connect('localhost', 'root', 'root');
+
+		// echo $conn;
+		// exit;
 		$result = mysql_select_db("db_client",$conn);
 		if($result)
 		{
@@ -12,3 +15,7 @@
 			exit;
 		}
 ?>
+
+
+<!-- is it root1 ? ok set it ok
+ -->
