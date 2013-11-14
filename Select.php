@@ -9,6 +9,7 @@
     }
     .data:nth-child(odd){background-color: #aaa;}
     .data:nth-child(even){background-color: #ccc;}
+    table tr td:nth-child(1){background-color: #999;}
   </style>
 </head>
 <body>
