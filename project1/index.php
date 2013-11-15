@@ -3,9 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Index</title>
+	<style>
+		.headding{
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body>
+	<h2 class="headding">Database operations</h2>
 <table align="center">
 
 <?php 
@@ -17,8 +23,6 @@
 	?>
 		<tr>
 		<?php 
-		
-		
 		echo "No result found";
 		?>
 		</tr>

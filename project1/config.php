@@ -15,7 +15,3 @@
 			exit;
 		}
 ?>
-
-
-<!-- is it root1 ? ok set it ok
- -->
